@@ -135,6 +135,7 @@ p {
         width: 278px;
         height: 60px;
         text-align: center;
+        margin-left: 50px;
     }
 
     p {
@@ -142,6 +143,7 @@ p {
         height: 165px;
         text-align: center;
         margin-top: 29px;
+        margin-left: 50px;
     }
 
     .image {
@@ -165,7 +167,8 @@ p {
     }
 
     .learn-button {
-        margin-left: 90px;
+        margin-left: 150px;
         margin-top: 26px;
     }
+
 }
