@@ -161,8 +161,7 @@ p {
     }
 
     .sign {
-        position: relative;
-        left: 400px;
+        margin-left: 360px;
         margin-bottom: 83px;
     }
 
