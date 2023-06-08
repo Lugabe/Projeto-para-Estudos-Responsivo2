@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: azure;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 36px;
+    color: #17233d;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+.link:active {
+    opacity: 0.5;
+}
+
+.sign {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #6fbf44;
+    border-radius: 10px;
+    border: 1px solid #17233d;
+    Width: 124px;
+    Height: 51px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#log-in {
+    background-color: brown;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #17233d;
+    Width: 124px;
+    Height: 51px;
+}
+
+.sign:hover {
+    opacity: 0.8;
+}
+
+.sign:active {
+    opacity: 0.5;
+}
+
+header {
+    margin-left: 42px;
+    margin-top: 47px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 121px;
+    margin-top: 163px;
+}
+
+.text {
+    margin-left: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    width: 582px;
+    height: 164px;
+    color: #161a49;
+    letter-spacing: 0.6px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    width: 493px;
+    height: 99px;
+    color: #4b505a;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+}
+
+.learn-button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background-color: dimgray;
+    border-radius: 15px;
+    Width: 110px;
+    Height: 45px;
+    border: none;
+    cursor: pointer;
+    margin-top: 55px;
+}
+
+.learn-button:hover {
+    opacity: 0.8;
+}
+
+.learn-button:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 550px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .link {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 278px;
+        height: 60px;
+        text-align: center;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        text-align: center;
+        margin-top: 29px;
+    }
+
+    .image {
+        width: 312px;
+        height: 288px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: auto;
+    }
+
+    .sign {
+        position: relative;
+        left: 400px;
+        margin-bottom: 83px;
+    }
+
+    .learn-button {
+        margin-left: 90px;
+        margin-top: 26px;
+    }
+}
