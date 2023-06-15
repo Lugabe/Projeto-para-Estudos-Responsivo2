@@ -1,8 +1,7 @@
 # Projeto-para-Estudos-Responsivo2
 <h1>Responsividade para disposítivos movéis com HTML,5 E CSS3</h1><br>
 
-<p>link para acessar:</p>
-<a href="https://lugabe.github.io/Wide-coverage/">
+<a href="https://lugabe.github.io/Wide-coverage/">Link para acessar</a>
   
   
 <h2 align ="center">Para Desktop </h2>
